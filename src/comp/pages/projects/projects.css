@@ -1,0 +1,84 @@
+
+
+.projects-section {
+    min-height: 100vh;
+    /* background: #7474BF;  
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  
+    background: linear-gradient(to right, #348AC7, #7474BF); */
+    padding: 10px;
+}
+
+
+
+.freeelance-single-project {
+    max-width: 400px;
+    height: 350px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px floralwhite,-2px -2px 2px floralwhite;
+    overflow: hidden;
+}
+
+.dgymlinks a {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.freeelance-single-project .info-hiding {
+    transition: all 1s ease;
+    height: 1px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.freeelance-single-project:hover .info-hiding {
+    transform: translateX(0px);
+    background-color: #ebebeb!important;
+    color: black!important;
+    color:whitesmoke;
+    font-weight: bold;
+    height: 100%;
+}
+
+.single-personal-projects {
+    width: 400px;
+    max-width: 400px;
+    height: 390px;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+}
+
+.single-personal-projects:hover {
+    /* box-shadow: 2px 2px 2px floralwhite,-2px -2px 2px floralwhite; */
+    transition: all 1s ease;
+}
+
+.single-personal-projects .info-hiding{
+    transition: all 1s ease;
+    height: 0px;
+    font-weight: bold;
+    overflow: hidden;
+    /* background: #4b6cb7;  
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
+    background: linear-gradient(to right, #182848, #4b6cb7); */
+    background-color: #ebebeb!important;
+    color: black!important;
+}
+
+.single-personal-projects:hover .info-hiding{
+    transition: all 1s ease;
+    color:whitesmoke;
+    height: 100%;
+}
+
+.single-personal-projects .info-hiding a {
+   width: 50%;
+}
+
+.single-personal-projects .info-hiding h1 {
+    font-size: 20px;
+    border-bottom: 2px solid #156ff6;
+    padding: 0px 0 5px 0
+}
